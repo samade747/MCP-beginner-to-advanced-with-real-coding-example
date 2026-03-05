@@ -162,4 +162,5 @@ If this guide helped you, please give it a ⭐ — it helps 15,000+ other studen
 
 ---
 
-*Built with ❤️ for students learning MCP and Claude AI*
+*Built with ❤️ for students learning MCP and Claude AI* 
+![Profile Views](https://komarev.com/ghpvc/?username=samade747&style=flat-square)
