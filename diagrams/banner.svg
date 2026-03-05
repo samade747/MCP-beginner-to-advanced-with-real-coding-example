@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="900" height="220">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="toolGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#065f46"/>
+      <stop offset="100%" style="stop-color:#10b981"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="220" fill="url(#bg)" rx="12"/>
+
+  <!-- Title -->
+  <text x="450" y="38" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#f1f5f9">🤖 Model Context Protocol (MCP)</text>
+  <text x="450" y="60" text-anchor="middle" font-family="monospace" font-size="13" fill="#94a3b8">Complete Learning Guide · Python + Claude AI · Beginner → Expert</text>
+
+  <!-- USER -->
+  <rect x="30" y="80" width="100" height="50" rx="8" fill="#334155"/>
+  <text x="80" y="100" text-anchor="middle" font-family="monospace" font-size="11" fill="#94a3b8">USER</text>
+  <text x="80" y="118" text-anchor="middle" font-family="monospace" font-size="18">👤</text>
+
+  <!-- Arrow -->
+  <line x1="130" y1="105" x2="165" y2="105" stroke="#60a5fa" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- CLAUDE -->
+  <rect x="165" y="80" width="120" height="50" rx="8" fill="url(#boxGrad)"/>
+  <text x="225" y="100" text-anchor="middle" font-family="monospace" font-size="11" fill="white">Claude AI</text>
+  <text x="225" y="118" text-anchor="middle" font-family="monospace" font-size="16">🧠</text>
+
+  <!-- Arrow -->
+  <line x1="285" y1="105" x2="320" y2="105" stroke="#60a5fa" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- MCP CLIENT -->
+  <rect x="320" y="80" width="130" height="50" rx="8" fill="#1e40af"/>
+  <text x="385" y="100" text-anchor="middle" font-family="monospace" font-size="11" fill="white">MCP Client</text>
+  <text x="385" y="118" text-anchor="middle" font-family="monospace" font-size="16">🔌</text>
+
+  <!-- Arrow -->
+  <line x1="450" y1="105" x2="490" y2="105" stroke="#60a5fa" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- MCP SERVER -->
+  <rect x="490" y="80" width="130" height="50" rx="8" fill="#1e40af"/>
+  <text x="555" y="100" text-anchor="middle" font-family="monospace" font-size="11" fill="white">MCP Server</text>
+  <text x="555" y="118" text-anchor="middle" font-family="monospace" font-size="16">⚙️</text>
+
+  <!-- Arrows down -->
+  <line x1="520" y1="130" x2="520" y2="150" stroke="#10b981" stroke-width="1.5" marker-end="url(#arr2)"/>
+  <line x1="555" y1="130" x2="555" y2="150" stroke="#10b981" stroke-width="1.5" marker-end="url(#arr2)"/>
+  <line x1="590" y1="130" x2="590" y2="150" stroke="#10b981" stroke-width="1.5" marker-end="url(#arr2)"/>
+
+  <!-- Tool boxes -->
+  <rect x="478" y="152" width="75" height="36" rx="6" fill="url(#toolGrad)"/>
+  <text x="515" y="166" text-anchor="middle" font-family="monospace" font-size="10" fill="white">🛠️ Tools</text>
+  <text x="515" y="180" text-anchor="middle" font-family="monospace" font-size="9" fill="#d1fae5">Functions</text>
+
+  <rect x="518" y="152" width="75" height="36" rx="6" fill="#064e3b"/>
+  <text x="555" y="166" text-anchor="middle" font-family="monospace" font-size="10" fill="white">📊 Data</text>
+  <text x="555" y="180" text-anchor="middle" font-family="monospace" font-size="9" fill="#d1fae5">Resources</text>
+
+  <rect x="558" y="152" width="75" height="36" rx="6" fill="#065f46"/>
+  <text x="595" y="166" text-anchor="middle" font-family="monospace" font-size="10" fill="white">💬 Prompts</text>
+  <text x="595" y="180" text-anchor="middle" font-family="monospace" font-size="9" fill="#d1fae5">Templates</text>
+
+  <!-- Stats on right -->
+  <rect x="660" y="75" width="220" height="130" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="770" y="97" text-anchor="middle" font-family="monospace" font-size="12" font-weight="bold" fill="#f1f5f9">📚 What's Inside</text>
+  <text x="675" y="115" font-family="monospace" font-size="10" fill="#10b981">✅ 10 Chapters (Zero → Expert)</text>
+  <text x="675" y="131" font-family="monospace" font-size="10" fill="#10b981">✅ 20+ Working Code Examples</text>
+  <text x="675" y="147" font-family="monospace" font-size="10" fill="#10b981">✅ 5 Production Projects</text>
+  <text x="675" y="163" font-family="monospace" font-size="10" fill="#10b981">✅ Claude AI Integration</text>
+  <text x="675" y="179" font-family="monospace" font-size="10" fill="#10b981">✅ Docker Deployment</text>
+  <text x="675" y="195" font-family="monospace" font-size="10" fill="#60a5fa">Python · MCP SDK · Claude API</text>
+
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#60a5fa"/>
+    </marker>
+    <marker id="arr2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#10b981"/>
+    </marker>
+  </defs>
+</svg>

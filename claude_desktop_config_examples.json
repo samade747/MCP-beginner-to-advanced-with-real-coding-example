@@ -1,0 +1,54 @@
+{
+  "_comment": "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+  "_comment2": "Claude Desktop MCP Configuration Examples",
+  "_comment3": "File location:",
+  "_comment4": "  macOS:   ~/Library/Application Support/Claude/claude_desktop_config.json",
+  "_comment5": "  Windows: %APPDATA%\\Claude\\claude_desktop_config.json",
+  "_comment6": "IMPORTANT: Replace /absolute/path/to/ with your real file paths!",
+  "_comment7": "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+
+  "mcpServers": {
+
+    "weather": {
+      "_comment": "Basic weather server — no API key needed",
+      "command": "python",
+      "args": ["/absolute/path/to/mcp-complete-guide/examples/02_tools/weather_tool.py"]
+    },
+
+    "calculator": {
+      "_comment": "Math calculator server",
+      "command": "python",
+      "args": ["/absolute/path/to/mcp-complete-guide/examples/02_tools/calculator_tool.py"]
+    },
+
+    "filesystem": {
+      "_comment": "Safe file system server — accesses ~/mcp-workspace/ only",
+      "command": "python",
+      "args": ["/absolute/path/to/mcp-complete-guide/examples/02_tools/file_tool.py"]
+    },
+
+    "weather-agent": {
+      "_comment": "Full-featured weather agent project",
+      "command": "python",
+      "args": ["/absolute/path/to/mcp-complete-guide/projects/weather_agent/weather_agent.py"]
+    },
+
+    "research": {
+      "_comment": "Wikipedia research agent",
+      "command": "python",
+      "args": ["/absolute/path/to/mcp-complete-guide/projects/research_agent/research_agent.py"]
+    },
+
+    "database": {
+      "_comment": "SQLite database agent",
+      "command": "python",
+      "args": ["/absolute/path/to/mcp-complete-guide/projects/database_agent/database_agent.py"]
+    },
+
+    "all-in-one": {
+      "_comment": "Multi-tool server — weather + calc + files + web + time",
+      "command": "python",
+      "args": ["/absolute/path/to/mcp-complete-guide/examples/06_multiserver/multi_tool_server.py"]
+    }
+  }
+}

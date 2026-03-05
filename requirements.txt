@@ -1,0 +1,21 @@
+# MCP Complete Guide - Requirements
+# Install all dependencies with: pip install -r requirements.txt
+
+# ─── Core MCP SDK ─────────────────────────────────────────────────────────────
+mcp>=1.0.0                  # Official Anthropic MCP Python SDK
+
+# ─── HTTP & Networking ────────────────────────────────────────────────────────
+httpx>=0.27.0               # Async HTTP client (used in many examples)
+requests>=2.31.0            # Sync HTTP client (simpler examples)
+
+# ─── Environment & Config ─────────────────────────────────────────────────────
+python-dotenv>=1.0.0        # Load API keys from .env files
+
+# ─── Data & Utilities ─────────────────────────────────────────────────────────
+pydantic>=2.0.0             # Data validation (used by MCP SDK internally)
+
+# ─── Database (Project 5) ─────────────────────────────────────────────────────
+aiosqlite>=0.20.0           # Async SQLite database
+
+# ─── Web Scraping (Research Agent) ────────────────────────────────────────────
+beautifulsoup4>=4.12.0      # HTML parsing
