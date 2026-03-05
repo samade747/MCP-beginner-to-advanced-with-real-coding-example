@@ -1,3 +1,5 @@
+![Profile Views](https://komarev.com/ghpvc/?username=samade747&style=flat-square)
+
 # 🤖 Complete MCP (Model Context Protocol) Learning Guide
 
 > **From Zero to Expert** — A step-by-step guide for 15,000+ students learning to build real AI systems with Claude AI and MCP.
